@@ -11,7 +11,7 @@ Caso seja encerrado o programa, ele exibe uma mensagem de erro, instruindo o usu
 
 ## 03 - Gerador de Senhas Aleatórias
 Iniciamos uma 'string senha' e um 'int digito' que determina o tamanho da senha (multiplica por 6, pois ele pega um número aleatório até 5 e soma com o +5, assim nunca gerando uma quantidade abaixo de 5, ou mais que 10).
-Cira-se um loop do tamanho da senha, onde seleciona números de 5 a 10 e concatena na 'string senha'.
+Cria-se um loop do tamanho da senha, onde seleciona números de 5 a 10 e concatena na 'string senha'.
 
 ## 04 - Inversor de Frases
 Inicia-se passando um valor por scanner, depois utiliza-se o método da classe String, 'replaceAll()', onde é passado por parâmetro '\\s' que seleciona todos os espaços em branco na string, e subistitui por outra string.
